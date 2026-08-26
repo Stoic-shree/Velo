@@ -38,7 +38,7 @@ veloform.addEventListener("submit", async (e) => {
       <p>${foundAgent.description}</p>
     `;
   } catch (e) {
-    result.innerText = "GG You are not a player";
+    result.innerText = "GG You are not a player!";
     console.error(e);
   }
 });
